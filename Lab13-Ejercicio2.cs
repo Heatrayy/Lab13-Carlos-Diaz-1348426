@@ -10,12 +10,31 @@ class Vehiculo
 
     public void MostrarInformacion()
     {
-        Console.WriteLine("===== EJERCICIO 2 - VEHICULO =====");
+        Console.WriteLine("===== INFORMACION DEL VEHICULO =====");
         Console.WriteLine("Marca: " + marca);
         Console.WriteLine("Modelo: " + modelo);
-        Console.WriteLine("Año: " + anio);
+        Console.WriteLine("Anio: " + anio);
         Console.WriteLine("Color: " + color);
         Console.WriteLine("Placa: " + placa);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Vehiculo vehiculo1 = new Vehiculo();
+
+        vehiculo1.marca = "Toyota";
+        vehiculo1.modelo = "Corolla";
+        vehiculo1.anio = 2020;
+        vehiculo1.color = "Rojo";
+        vehiculo1.placa = "P123ABC";
+
+        vehiculo1.MostrarInformacion();
+
         Console.WriteLine();
+        Console.WriteLine("Presione una tecla para salir...");
+        Console.ReadKey();
     }
 }
