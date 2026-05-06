@@ -9,7 +9,7 @@ class Persona
 
     public void MostrarInformacion()
     {
-        Console.WriteLine("===== EJERCICIO 1 - PERSONA =====");
+        Console.WriteLine("EJERCICIO 1 - PERSONA");
         Console.WriteLine("Nombre: " + nombre);
         Console.WriteLine("Edad: " + edad);
         Console.WriteLine("Altura: " + altura + " metros");
