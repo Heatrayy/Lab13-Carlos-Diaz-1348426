@@ -25,11 +25,11 @@ class Program
     {
         Vehiculo vehiculo1 = new Vehiculo();
 
-        vehiculo1.marca = "Toyota";
-        vehiculo1.modelo = "Corolla";
-        vehiculo1.anio = 2020;
+        vehiculo1.marca = "Alfa Romeo";
+        vehiculo1.modelo = "Cupra Formento";
+        vehiculo1.anio = 2024;
         vehiculo1.color = "Rojo";
-        vehiculo1.placa = "P123ABC";
+        vehiculo1.placa = "K294FOP";
 
         vehiculo1.MostrarInformacion();
 
