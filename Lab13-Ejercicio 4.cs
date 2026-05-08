@@ -25,8 +25,8 @@ class Program
     {
         Mascota mascota1 = new Mascota();
 
-        mascota1.nombre = "Firulais";
-        mascota1.especie = "Perro";
+        mascota1.nombre = "Kawasaki";
+        mascota1.especie = "gato";
         mascota1.edad = 4;
         mascota1.peso = 12.5;
         mascota1.vacunado = true;
